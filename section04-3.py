@@ -58,3 +58,24 @@ temp = [77,88]
 y.extend(temp)
 y.append(temp)
 print(y)
+
+# 튜플
+
+a = ()
+b = (1,)
+c = (1,2,3,4)
+d = (10, 100, ('a', 'b', 'c'))
+
+print(c[2])
+print(c[3])
+print(d[2][2])
+print(c + d)
+print(c * 3)
+
+# tuple funtion
+
+z = (5,2,3,1,1)
+print(z)
+print(3 in z)
+print(z.index(5))
+print(z.count(1))
